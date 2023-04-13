@@ -1,0 +1,46 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+  <groupId>fr.lefebvredalloz.xml</groupId>
+	<artifactId>parallel</artifactId>
+	<version>1.00.00</version>
+
+	<licenses>
+		<license>
+			<name>MPL-2.0 license</name>
+			<url>https://www.mozilla.org/en-US/MPL/2.0/</url>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<name>Hamdi KARRAY</name>
+			<email>h.karray-ext@lefebvre-dalloz.fr</email>
+			<organization>Lefebvre Dalloz</organization>
+			<organizationUrl>https://www.lefebvre-dalloz.fr/</organizationUrl>
+		</developer>
+	</developers>
+
+	<scm>
+		<connection>scm:git:git://github.com/ELSGestion/parallel.git</connection>
+		<developerConnection>scm:git:ssh://github.com:ELSGestion/parallel.git</developerConnection>
+		<url>http://github.com/ELSGestion/parallel/tree/main</url>
+	</scm>
+
+  <properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+	
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub hamdikarray Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/hamdikarray/parallel</url>
+		</repository>
+	</distributionManagement>
+	
+
+</project>
